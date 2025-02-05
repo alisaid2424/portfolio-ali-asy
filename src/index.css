@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-link {
+    @apply text-sm font-medium tracking-wide text-title-light opacity-90 transition-colors duration-300 hover:text-[.92rem] hover:text-bluu-light hover:opacity-100 dark:text-title-dark dark:hover:text-bluu-dark;
+  }
+  .btn-nav {
+    @apply flex h-11 w-11 items-center justify-center rounded-full border border-orange-400 bg-bgHeader-light text-[1.5rem] text-subtitle-light shadow-md transition-all duration-300 hover:border-opacity-75 hover:text-title-light dark:border-gray-500 dark:bg-bgHeader-dark dark:text-subtitle-dark hover:dark:border-orange-400 dark:hover:text-title-dark;
+  }
+  .icon-style {
+    @apply transition-all duration-500 hover:cursor-pointer hover:text-[1.25rem] hover:text-iconhover-light hover:dark:text-iconhover-dark;
+  }
+  .btn-link {
+    @apply w-28 rounded-md border-2 bg-[#24252E] py-2  text-center text-[.80rem] capitalize text-white opacity-50 transition-all duration-300 hover:border-bluu-light hover:opacity-100 disabled:cursor-not-allowed  dark:border dark:opacity-50  hover:dark:border-bluu-dark  hover:dark:opacity-100 sm:w-44 sm:text-sm;
+  }
+  .active-btn {
+    @apply border-bluu-light font-bold opacity-100 dark:border-bluu-dark dark:opacity-100;
+  }
+  .card-style {
+    @apply w-[90%] overflow-hidden rounded-md border bg-gradient-to-t from-white/5 to-white/5 shadow-md transition-all duration-300 hover:cursor-pointer dark:border-[#5DBCFC4C] hover:dark:border-bluu-dark sm:w-[270px] md:w-[240px] lg:w-[230px] 
+        xl:w-[290px];
+  }
+  .input {
+    @apply w-full rounded-md border border-inputBorder-light bg-inputback-light px-4 py-2 text-sm text-[#232324] 
+    caret-[#4E5050] transition duration-300 hover:border-[#4E5050] focus:outline-none focus:ring-1 focus:ring-[#4E5050] dark:border-inputBorder-dark
+        dark:bg-inputback-dark dark:text-white dark:caret-[#2DD4BF]  hover:dark:border-[#2DD4BF] focus:dark:ring-[#2DD4BF];
+  }
+  .link-footer {
+    @apply text-sm font-normal text-subtitle-light  transition-all duration-300 hover:font-medium hover:text-bluu-light dark:text-subtitle-dark hover:dark:text-bluu-dark;
+  }
+}
+
+@layer utilities {
+  @media (min-width: 464px) {
+    .contact-us form {
+      @apply basis-[45%];
+    }
+    .input {
+      @apply w-96;
+    }
+  }
+  /* width scrollbar*/
+  ::-webkit-scrollbar,
+  .dark ::-webkit-scrollbar {
+    width: 14px;
+  }
+
+  /*Handle Track */
+  ::-webkit-scrollbar-track {
+    background: #fff;
+  }
+
+  /*Handle Track */
+  .dark ::-webkit-scrollbar-track {
+    background: #374151;
+  }
+
+  /* Handle thumb*/
+  ::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  /* Handle thumb*/
+  .dark ::-webkit-scrollbar-thumb {
+    background: #6b7280;
+    border: 2px solid #374151;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+}
