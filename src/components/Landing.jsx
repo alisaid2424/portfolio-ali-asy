@@ -14,7 +14,7 @@ const Landing = () => {
             initial={{ transform: 'scale(0)' }}
             animate={{ transform: 'scale(1.1)' }}
             transition={{ damping: 6, type: 'spring', stiffness: 100 }}
-            src="images/img-dev-full.jpeg"
+            src="img-dev-full.jpeg"
             alt="avatar"
             className="h-24 w-24 rounded-full border-2 border-yellow-500 p-[2px] shadow-inner shadow-gray-300"
           />
