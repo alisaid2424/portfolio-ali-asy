@@ -20,7 +20,11 @@ export const dataBtnList = [
     pathLink: 'js',
   },
   {
-    name: 'React',
+    name: 'React Js',
     pathLink: 'react',
+  },
+  {
+    name: 'Next Js',
+    pathLink: 'next',
   },
 ];

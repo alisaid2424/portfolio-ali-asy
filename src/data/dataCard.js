@@ -1,5 +1,51 @@
 export const dataCard = [
   {
+    projectTitle: 'Food-Ordering-App',
+    category: ['all', 'next', 'react', 'tailwind'],
+    imgPath: './images/9.jpg',
+    LinkProject: 'https://food-ordering-app-xi-lac.vercel.app',
+    LinkGithub: 'https://github.com/alisaid2424/food-ordering-app',
+    description:
+      'A convenient online pizza ordering app serving hot, fresh, and tasty pizzas with fast delivery and easy payment options.',
+  },
+  {
+    projectTitle: 'cloud-hosting',
+    category: ['all', 'next', 'react', 'tailwind'],
+    imgPath: './images/b.png',
+    LinkProject: 'https://cloud-hosting2424.vercel.app',
+    LinkGithub: 'https://github.com/alisaid2424/Cloud-Hosting',
+    description:
+      'A cloud-hosted platform for publishing tech articles where visitors can read, engage, and leave comments in real-time.',
+  },
+  {
+    projectTitle: 'Falcon-ecommerce',
+    category: ['all', 'next', 'react', 'tailwind'],
+    imgPath: './images/d.webp',
+    LinkProject: 'https://github.com/alisaid2424/frontend-ecommerce-falcon',
+    LinkGithub: 'https://github.com/alisaid2424/backend-ecommerce-falcon',
+    description:
+      'Falcon-ecommerce is an online store dedicated to selling top-quality tech books for developers, engineers, and tech enthusiasts.',
+  },
+  {
+    projectTitle: 'tasks-list',
+    category: ['all', 'next', 'react', 'tailwind'],
+    imgPath: './images/q.png',
+    LinkProject: 'https://tasks-list-fntt.vercel.app',
+    LinkGithub: 'https://github.com/alisaid2424/Tasks-list',
+    description:
+      'A cloud-hosted task manager where you can add, edit, or delete tasks seamlessly using server actions for real-time updates.',
+  },
+  {
+    projectTitle: 'Blogs-Star',
+    category: ['all', 'next', 'react', 'tailwind'],
+    imgPath: './images/2.jpg',
+    LinkProject: 'https://blogs-star.vercel.app',
+    LinkGithub: 'https://github.com/alisaid2424/blogs-star',
+    description:
+      'Blogs-Star is a simple blog app built with Next.js 14, showcasing basic routing, file-based structure, and server actions.',
+  },
+
+  {
     projectTitle: 'ecommerce1-elasy',
     category: ['all', 'react', 'bootstrap'],
     imgPath: './images/1.jpg',
