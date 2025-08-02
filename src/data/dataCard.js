@@ -3,23 +3,33 @@ export const dataCard = [
     projectTitle: 'Food-Ordering-App',
     category: ['all', 'next', 'react', 'tailwind'],
     imgPath: './images/9.jpg',
-    LinkProject: 'https://food-ordering-app-xi-lac.vercel.app',
+    LinkProject: 'https://food-ordering-app-hazel.vercel.app/en',
     LinkGithub: 'https://github.com/alisaid2424/food-ordering-app',
     description:
       'A convenient online pizza ordering app serving hot, fresh, and tasty pizzas with fast delivery and easy payment options.',
   },
+   {
+    projectTitle: 'Computer-repair-shop',
+    category: ['all', 'next', 'tailwind'],
+    imgPath: './images/8.jpg',
+    LinkProject: 'https://repairshopcomputer.vercel.app',
+    LinkGithub: 'https://github.com/alisaid2424/repairshopcomputer',
+    description:
+      "A modern Next.js 15 computer repair app using shadcn/ui, server actions, and latest libraries for fast service.",
+  },
   {
     projectTitle: 'cloud-hosting',
-    category: ['all', 'next', 'react', 'tailwind'],
+    category: ['all', 'next', 'tailwind'],
     imgPath: './images/b.png',
     LinkProject: 'https://cloud-hosting2424.vercel.app',
     LinkGithub: 'https://github.com/alisaid2424/Cloud-Hosting',
     description:
       'A cloud-hosted platform for publishing tech articles where visitors can read, engage, and leave comments in real-time.',
   },
+  
   {
     projectTitle: 'Falcon-ecommerce',
-    category: ['all', 'next', 'react', 'tailwind'],
+    category: ['all', 'next', 'tailwind'],
     imgPath: './images/d.webp',
     LinkProject: 'https://github.com/alisaid2424/frontend-ecommerce-falcon',
     LinkGithub: 'https://github.com/alisaid2424/backend-ecommerce-falcon',
@@ -28,7 +38,7 @@ export const dataCard = [
   },
   {
     projectTitle: 'tasks-list',
-    category: ['all', 'next', 'react', 'tailwind'],
+    category: ['all', 'next', 'tailwind'],
     imgPath: './images/q.png',
     LinkProject: 'https://tasks-list-fntt.vercel.app',
     LinkGithub: 'https://github.com/alisaid2424/Tasks-list',
@@ -37,7 +47,7 @@ export const dataCard = [
   },
   {
     projectTitle: 'Blogs-Star',
-    category: ['all', 'next', 'react', 'tailwind'],
+    category: ['all', 'next', 'tailwind'],
     imgPath: './images/2.jpg',
     LinkProject: 'https://blogs-star.vercel.app',
     LinkGithub: 'https://github.com/alisaid2424/blogs-star',
