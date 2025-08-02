@@ -1,7 +1,7 @@
 export const dataCard = [
   {
     projectTitle: 'Food-Ordering-App',
-    category: ['all', 'next', 'react', 'tailwind'],
+    category: ['all', 'next', 'tailwind'],
     imgPath: './images/9.jpg',
     LinkProject: 'https://food-ordering-app-hazel.vercel.app/en',
     LinkGithub: 'https://github.com/alisaid2424/food-ordering-app',
