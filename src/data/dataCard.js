@@ -17,6 +17,24 @@ export const dataCard = [
     description:
       "A modern Next.js 15 computer repair app using shadcn/ui, server actions, and latest libraries for fast service.",
   },
+   {
+    projectTitle: 'BlogsDigital Inspiration Blog',
+    category: ['all', 'next', 'tailwind'],
+    imgPath: './images/b.png',
+    LinkProject: 'https://blogswithshadcn.vercel.app',
+    LinkGithub: 'https://github.com/alisaid2424/blogswithshadcn',
+    description:
+      'Deep dives into technology, design, and creativity from a unique and insightful perspective.',
+  },
+   {
+    projectTitle: 'tasks-list',
+    category: ['all', 'next', 'tailwind'],
+    imgPath: './images/q.png',
+    LinkProject: 'https://tasks-list-fntt.vercel.app',
+    LinkGithub: 'https://github.com/alisaid2424/Tasks-list',
+    description:
+      'A cloud-hosted task manager where you can add, edit, or delete tasks seamlessly using server actions for real-time updates.',
+  },
   {
     projectTitle: 'cloud-hosting',
     category: ['all', 'next', 'tailwind'],
@@ -35,15 +53,6 @@ export const dataCard = [
     LinkGithub: 'https://github.com/alisaid2424/backend-ecommerce-falcon',
     description:
       'Falcon-ecommerce is an online store dedicated to selling top-quality tech books for developers, engineers, and tech enthusiasts.',
-  },
-  {
-    projectTitle: 'tasks-list',
-    category: ['all', 'next', 'tailwind'],
-    imgPath: './images/q.png',
-    LinkProject: 'https://tasks-list-fntt.vercel.app',
-    LinkGithub: 'https://github.com/alisaid2424/Tasks-list',
-    description:
-      'A cloud-hosted task manager where you can add, edit, or delete tasks seamlessly using server actions for real-time updates.',
   },
   {
     projectTitle: 'Blogs-Star',
