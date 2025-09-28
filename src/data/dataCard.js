@@ -1,5 +1,14 @@
 export const dataCard = [
   {
+    projectTitle: 'Falcon-tech',
+    category: ['all', 'next', 'tailwind'],
+    imgPath: './images/d.webp',
+    LinkProject: 'https://falcon-tech-mu.vercel.app',
+    LinkGithub: 'https://github.com/alisaid2424/falcon-tech',
+    description:
+      'Falcon-tech is an online store dedicated to selling top-quality tech books for developers, engineers, and tech enthusiasts.',
+  },
+  {
     projectTitle: 'Food-Ordering-App',
     category: ['all', 'next', 'tailwind'],
     imgPath: './images/9.jpg',
@@ -18,7 +27,7 @@ export const dataCard = [
       "A modern Next.js 15 computer repair app using shadcn/ui, server actions, and latest libraries for fast service.",
   },
    {
-    projectTitle: 'BlogsDigital Inspiration Blog',
+    projectTitle: 'Blogs Digital Inspiration',
     category: ['all', 'next', 'tailwind'],
     imgPath: './images/b.png',
     LinkProject: 'https://blogswithshadcn.vercel.app',
@@ -45,15 +54,7 @@ export const dataCard = [
       'A cloud-hosted platform for publishing tech articles where visitors can read, engage, and leave comments in real-time.',
   },
   
-  {
-    projectTitle: 'Falcon-ecommerce',
-    category: ['all', 'next', 'tailwind'],
-    imgPath: './images/d.webp',
-    LinkProject: 'https://github.com/alisaid2424/frontend-ecommerce-falcon',
-    LinkGithub: 'https://github.com/alisaid2424/backend-ecommerce-falcon',
-    description:
-      'Falcon-ecommerce is an online store dedicated to selling top-quality tech books for developers, engineers, and tech enthusiasts.',
-  },
+  
   {
     projectTitle: 'Blogs-Star',
     category: ['all', 'next', 'tailwind'],
