@@ -1,4 +1,22 @@
 export const dataCard = [
+    {
+    projectTitle: 'Quick-Cinema',
+    category: ['all', 'next', 'tailwind'],
+    imgPath: './images/q.webp',
+    LinkProject: 'https://quick-cinema-beige.vercel.app',
+    LinkGithub: 'https://github.com/alisaid2424/QuickCinema',
+    description:
+      'QuickCinema brings you the latest and most popular films in a clean, fast, and immersive browsing experience. Built with Next.js for blazing performance',
+  },
+    {
+    projectTitle: 'Mercando',
+    category: ['all', 'next', 'tailwind'],
+    imgPath: './images/7.jpg',
+    LinkProject: 'https://mercando-app-vg58.vercel.app',
+    LinkGithub: 'https://github.com/alisaid2424/mercando-app',
+    description:
+      'Mercando is your modern online marketplace offering a seamless shopping experience with curated products, fast delivery, and excellent customer service.',
+  },
   {
     projectTitle: 'Falcon-tech',
     category: ['all', 'next', 'tailwind'],
@@ -26,24 +44,7 @@ export const dataCard = [
     description:
       "A modern Next.js 15 computer repair app using shadcn/ui, server actions, and latest libraries for fast service.",
   },
-   {
-    projectTitle: 'Blogs Digital Inspiration',
-    category: ['all', 'next', 'tailwind'],
-    imgPath: './images/b.png',
-    LinkProject: 'https://blogswithshadcn.vercel.app',
-    LinkGithub: 'https://github.com/alisaid2424/blogswithshadcn',
-    description:
-      'Deep dives into technology, design, and creativity from a unique and insightful perspective.',
-  },
-   {
-    projectTitle: 'tasks-list',
-    category: ['all', 'next', 'tailwind'],
-    imgPath: './images/q.png',
-    LinkProject: 'https://tasks-list-fntt.vercel.app',
-    LinkGithub: 'https://github.com/alisaid2424/Tasks-list',
-    description:
-      'A cloud-hosted task manager where you can add, edit, or delete tasks seamlessly using server actions for real-time updates.',
-  },
+
   {
     projectTitle: 'cloud-hosting',
     category: ['all', 'next', 'tailwind'],
@@ -54,16 +55,7 @@ export const dataCard = [
       'A cloud-hosted platform for publishing tech articles where visitors can read, engage, and leave comments in real-time.',
   },
   
-  
-  {
-    projectTitle: 'Blogs-Star',
-    category: ['all', 'next', 'tailwind'],
-    imgPath: './images/2.jpg',
-    LinkProject: 'https://blogs-star.vercel.app',
-    LinkGithub: 'https://github.com/alisaid2424/blogs-star',
-    description:
-      'Blogs-Star is a simple blog app built with Next.js 14, showcasing basic routing, file-based structure, and server actions.',
-  },
+
 
   {
     projectTitle: 'ecommerce1-elasy',
