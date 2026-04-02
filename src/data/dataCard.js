@@ -2,7 +2,7 @@ export const dataCard = [
   {
     projectTitle: 'Hotels Booking',
     category: ['all', 'next', 'tailwind'],
-    imgPath: './images/8.jpg',
+    imgPath: './images/4.jpg',
     LinkProject: 'https://hotels-booking-chi.vercel.app',
     LinkGithub: 'https://github.com/alisaid2424/hotels-booking',
     description:
