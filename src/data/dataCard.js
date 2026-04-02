@@ -1,5 +1,14 @@
 export const dataCard = [
-    {
+  {
+    projectTitle: 'Hotels Booking',
+    category: ['all', 'next', 'tailwind'],
+    imgPath: './images/8.jpg',
+    LinkProject: 'https://hotels-booking-chi.vercel.app',
+    LinkGithub: 'https://github.com/alisaid2424/hotels-booking',
+    description:
+      'A modern hotel booking platform delivering fast reservations and a seamless experience powered by cutting-edge web technologies.',
+  },
+  {
     projectTitle: 'Quick-Cinema',
     category: ['all', 'next', 'tailwind'],
     imgPath: './images/q.webp',
@@ -8,7 +17,7 @@ export const dataCard = [
     description:
       'QuickCinema brings you the latest and most popular films in a clean, fast, and immersive browsing experience. Built with Next.js for blazing performance',
   },
-    {
+  {
     projectTitle: 'Mercando',
     category: ['all', 'next', 'tailwind'],
     imgPath: './images/7.jpg',
@@ -35,33 +44,21 @@ export const dataCard = [
     description:
       'A convenient online pizza ordering app serving hot, fresh, and tasty pizzas with fast delivery and easy payment options.',
   },
-   {
+  {
     projectTitle: 'Computer-repair-shop',
     category: ['all', 'next', 'tailwind'],
     imgPath: './images/8.jpg',
     LinkProject: 'https://repairshopcomputer.vercel.app',
     LinkGithub: 'https://github.com/alisaid2424/repairshopcomputer',
     description:
-      "A modern Next.js 15 computer repair app using shadcn/ui, server actions, and latest libraries for fast service.",
+      'A modern Next.js 15 computer repair app using shadcn/ui, server actions, and latest libraries for fast service.',
   },
-
-  {
-    projectTitle: 'cloud-hosting',
-    category: ['all', 'next', 'tailwind'],
-    imgPath: './images/b.png',
-    LinkProject: 'https://cloud-hosting2424.vercel.app',
-    LinkGithub: 'https://github.com/alisaid2424/Cloud-Hosting',
-    description:
-      'A cloud-hosted platform for publishing tech articles where visitors can read, engage, and leave comments in real-time.',
-  },
-  
-
 
   {
     projectTitle: 'ecommerce1-elasy',
     category: ['all', 'react', 'bootstrap'],
     imgPath: './images/1.jpg',
-    LinkProject: 'https://ecommerce1-elasy2424.netlify.app/',
+    LinkProject: 'https://github.com/alisaid2424/front-end-ecommerce-elasy24',
     LinkGithub: 'https://github.com/alisaid2424/front-end-ecommerce-elasy24',
     description:
       'An innovative e-commerce platform with a product dashboard, offering a seamless and secure shopping experience.',
@@ -79,7 +76,7 @@ export const dataCard = [
     projectTitle: 'Reactapp-usepopcorn',
     category: ['all', 'react'],
     imgPath: './images/3.jpg',
-    LinkProject: 'https://reactapp-usepopcorn-2424.netlify.app/',
+    LinkProject: 'https://reactapp-usepopcorn-2424.netlify.app',
     LinkGithub: 'https://github.com/alisaid2424/reactapp-usepopcorn',
     description:
       'A React application for discovering and tracking movies, with recommendations and user-friendly navigation.',
@@ -88,7 +85,7 @@ export const dataCard = [
     projectTitle: 'worldwise-react-app',
     category: ['all', 'react'],
     imgPath: './images/4.jpg',
-    LinkProject: 'https://worldwise-react-app2424.netlify.app/',
+    LinkProject: 'https://worldwise-react-app2424.netlify.app',
     LinkGithub: 'https://github.com/alisaid2424/worldwise-react-app',
     description:
       'A React app that provides information about places you have visited or want to visit around the world, with an intuitive interface.',

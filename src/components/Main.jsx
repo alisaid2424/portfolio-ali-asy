@@ -9,7 +9,7 @@ const Main = () => {
   const [showdata, setShowdata] = useState(dataCard);
   const [currentActive, setCurrentActive] = useState('all');
   const [page, setPage] = useState(1);
-  const limit = 4;
+  const limit = 6;
 
   const start = (page - 1) * limit;
   const end = start + limit;
